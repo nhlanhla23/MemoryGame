@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+
+    <div>
+        <label for="playerCount">Number of Players:</label>
+        <select id="playerCount">
+          <option value="1">1 Player</option>
+          <option value="2">2 Players</option>
+        </select>
+      </div>
+
+    <div class="container">
+        <h2>Memory Game</h2>
+        <div id="currentPlayer"></div> 
+        <div id="message"></div> 
+        <div class="game"></div>
+        <button class="reset" onclick="window.location.reload();">Reset Game</button>
+    </div>
+
+    <script src="index.js"></script>
+
+   
+</body>
+</html>
